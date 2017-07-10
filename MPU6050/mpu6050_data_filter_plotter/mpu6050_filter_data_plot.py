@@ -99,7 +99,7 @@ def update():
     curve_order2_filter_roll.setData(x_label, list(order2_filter_roll_deque))
 
     delta_time=datetime.datetime.now()-time1
-    print delta_time.microseconds/1000.0
+    #print delta_time.microseconds/1000.0
     
 timer = QtCore.QTimer()
 timer.timeout.connect(update)
