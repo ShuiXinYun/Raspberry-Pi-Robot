@@ -1,6 +1,8 @@
 #! /usr/bin/python
 # -*- coding:utf-8 -*-
-
+# vcc to v
+# trig to GPIO2/PIN3
+# echo to GPIO3/PIN5
 import RPi.GPIO as GPIO
 import time
 
