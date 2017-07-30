@@ -1,0 +1,33 @@
+processing-java --sketch=/home/pi/Desktop/Projects/Raspberry-Pi-Robot-master/Raspi-Arduino-I2C/Arduino_radar_client_processing --output=/home/pi/Desktop/Projects/Raspberry-Pi-Robot-master/Raspi-Arduino-I2C/Arduino_radar_client_processing/output --present
+
+
+
+Command line edition for Processing 0262 (Java Mode)
+
+--help               Show this help text. Congratulations.
+
+--sketch=<name>      Specify the sketch folder (required)
+--output=<name>      Specify the output folder (optional and
+                     cannot be the same as the sketch folder.)
+
+--force              The sketch will not build if the output
+                     folder already exists, because the contents
+                     will be replaced. This option erases the
+                     folder first. Use with extreme caution!
+
+--build              Preprocess and compile a sketch into .class files.
+--run                Preprocess, compile, and run a sketch.
+--present            Preprocess, compile, and run a sketch in presentation mode.
+
+--export             Export an application.
+--no-java            Do not embed Java. Use at your own risk!
+--platform           Specify the platform (export to application only).
+                     Should be one of 'windows', 'macosx', or 'linux'.
+
+The --build, --run, --present, or --export must be the final parameter
+passed to Processing. Arguments passed following one of those four will
+be passed through to the sketch itself, and therefore available to the
+sketch via the 'args' field. To pass options understood by PApplet.main(),
+write a custom main() method so that the preprocessor does not add one.
+https://github.com/processing/processing/wiki/Command-Line
+
